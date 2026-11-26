@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# 运行期数据
+data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+logs/
+
+# 本地环境
+.env
+*.pem
+*.key
+.DS_Store
